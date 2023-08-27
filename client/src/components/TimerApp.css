@@ -1,0 +1,78 @@
+/* App.css */
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .App {
+    text-align: center;
+    background-color: rgb(152, 170, 185);
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+
+  .App h1{ 
+    font-size: 40px;
+  }
+
+  .input-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .input-div label{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .input-div input{
+    padding: 5px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+  }
+  .input-div input:hover{
+    transform: scale(1.1);
+    transition: .5s;
+  }
+  .buttonsdiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttonsdiv button{
+    border: 0;
+    margin: 2px;
+    border-radius: 5px;
+  }
+  .buttonsdiv button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    
+  }
+
+  .timerdiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timerdiv input{
+    padding: 5px;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 2px;
+
+  }
+  .timerdiv button{
+    border: 0;
+    margin: 2px;
+    border-radius: 5px;
+
+  }
+
+  
